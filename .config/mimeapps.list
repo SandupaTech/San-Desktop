@@ -1,0 +1,14 @@
+[Added Associations]
+video/mp4=vlc.desktop;org.gnome.Totem.desktop;
+application/zip=org.gnome.Nautilus.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;
+text/x-python3=org.gnome.gedit.desktop;code.desktop;
+video/x-matroska=vlc.desktop;
+application/x-sharedlib=nvim.desktop;
+
+[Default Applications]
+text/html=brave-browser.desktop
+x-scheme-handler/http=brave-browser.desktop
+x-scheme-handler/https=brave-browser.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
