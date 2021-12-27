@@ -5,7 +5,7 @@ cp /etc/apt/sources.list /etc/apt/sources.list.bak
 cp sources.list /etc/apt/sources.list 
 
 # Add Custom Titus Rofi Deb Package
-dpkg -i 'Custom Packages/rofi_1.7.0-1_amd64.deb'
+dpkg -i 'Custom Packages from Debian-Titus/rofi_1.7.0-1_amd64.deb'
 
 # Update packages list
 apt update
