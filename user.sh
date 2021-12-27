@@ -23,3 +23,4 @@ cp .Xresources ~
 cp .Xnord ~
 cp -R .config/* ~/.config/
 cp .bash_aliases ~
+cp wallpaper.jpg ~/.wallpaper
