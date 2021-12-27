@@ -1,0 +1,7 @@
+alias st='sudo bash ~/Documents/xray/tunnel.sh'
+alias kt='sudo bash ~/Documents/xray/kill.sh'
+alias install='sudo apt install'
+alias update='sudo apt update'
+alias remove='sudo apt remove'
+alias upgrade='sudo apt upgrade'
+alias vim='nvim'
