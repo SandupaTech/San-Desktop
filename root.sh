@@ -11,7 +11,7 @@ dpkg -i 'Custom Packages from Debian-Titus/rofi_1.7.0-1_amd64.deb'
 apt update
 
 # Add base packages
-apt install unzip alsa-utils picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg htop neovim nitrogen dunst
+apt install unzip alsa-utils picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg htop nitrogen dunst
 
 # Download Nordic Theme
 cd /usr/share/themes/
