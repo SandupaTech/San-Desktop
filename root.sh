@@ -11,7 +11,7 @@ dpkg -i 'Custom Packages from Debian-Titus/rofi_1.7.0-1_amd64.deb'
 apt update
 
 # Add base packages
-apt install unzip alsa-utils picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg htop nitrogen dunst
+apt install unzip alsa-utils picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg htop nitrogen dunst vim
 
 # Download Nordic Theme
 cd /usr/share/themes/
@@ -25,4 +25,7 @@ echo "eval "$(starship init bash)"" >> ~/.bashrc
 #Neofetch
 echo "#NeoFetch" >> ~/.bashrc
 echo "neofetch" >> ~/.bashrc
+
+#Vim = NeoVim
+echo "alias vim='nvim'" >> ~/.bashrc
 source ~/.bashrc
