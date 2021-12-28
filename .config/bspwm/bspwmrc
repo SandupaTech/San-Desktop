@@ -61,37 +61,15 @@ bspc rule -a synergy desktop='^9'
 
 
 #Auto-Start
-bspc desktop -f ^9
+bspc desktop -f ^1
 sleep 0.50
 urxvtc &
-nitrogen --restore
+dunst &
+nitrogen --restore &
 bash ~/.config/polybar/launch.sh &
 lxpolkit &
 picom --config "$HOME/.config/bspwm/picom.conf" &
 flameshot &
 /usr/bin/ibus-daemon -drx &
-synergypid=0
-while [ $synergypid -eq 0 ] 
-do
-   sleep 1
-   synergypid=$(pidof synergy)
-done
-sleep 0.5
-pingresult=$(ping -c 1 1.1.1.1 > /dev/null ; echo $?)
-while [ $pingresult -ne 0 ]; do
-  pingresult=$(ping -c 1 1.1.1.1 > /dev/null ; echo $?)
-done
-bspc desktop -f ^6
-/bin/Discord &
-discordpid=0
-while [ $discordpid -eq 0 ] 
-do
-   sleep 1
-   discordpid=$(pidof Discord)
-done
-sleep 2.5
-bspc desktop -f ^1
-bash ~/Git
-
 
 
