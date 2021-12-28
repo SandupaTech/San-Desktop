@@ -65,7 +65,7 @@ super + g
 	bspc node -s biggest.window
 
 super + e
-	nautilus
+	thunar
 #
 # state/flags
 #
