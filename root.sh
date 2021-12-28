@@ -11,8 +11,12 @@ dpkg -i 'Custom Packages from Debian-Titus/rofi_1.7.0-1_amd64.deb'
 apt update
 
 # Add base packages
-apt install unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg htop neovim nitrogen
+apt install unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg htop neovim nitrogen dunst
 
 # Download Nordic Theme
 cd /usr/share/themes/
 git clone https://github.com/EliverLara/Nordic.git
+
+#Starship shell
+sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+cp .bashrc ~/
