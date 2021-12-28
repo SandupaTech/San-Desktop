@@ -19,5 +19,10 @@ git clone https://github.com/EliverLara/Nordic.git
 
 #Starship shell
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
-cp .bashrc ~/
+echo "#Starship Shell" >> ~/.bashrc
+echo "eval "$(starship init bash)"" >> ~/.bashrc
+
+#Neofetch
+echo "#NeoFetch" >> ~/.bashrc
+echo "neofetch" >> ~/.bashrc
 source ~/.bashrc
