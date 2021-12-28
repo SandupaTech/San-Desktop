@@ -17,15 +17,16 @@ apt install unzip alsa-utils picom bspwm polybar sddm rofi kitty thunar flamesho
 cd /usr/share/themes/
 git clone https://github.com/EliverLara/Nordic.git
 
+#Vim = NeoVim
+echo "alias vim='nvim'" >> ~/.bashrc
+
 #Starship shell
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 echo "#Starship Shell" >> ~/.bashrc
-echo "eval "$(starship init bash)"" >> ~/.bashrc
+echo "eval \"\$(starship init bash)\"" >> ~/.bashrc
 
 #Neofetch
 echo "#NeoFetch" >> ~/.bashrc
 echo "neofetch" >> ~/.bashrc
 
-#Vim = NeoVim
-echo "alias vim='nvim'" >> ~/.bashrc
 source ~/.bashrc
