@@ -16,6 +16,11 @@ fc-cache -vf
 #Ms-fonts
 sudo apt install ttf-mscorefonts-installer
 
+#NeoVIM Installation
+git clone https://github.com/Optixal/neovim-init.vim
+chmod +x neovim-init.vim/install.sh
+neovim-init.vim/install.sh
+
 echo "RUN LXAPPEARANCE"
 
 cp .Xresources ~
