@@ -28,4 +28,5 @@ cp .Xnord ~
 cp -R .config/* ~/.config/
 cp .bash_aliases ~
 cp wallpaper.jpg ~/.wallpaper
+cp wallpaper2.jpeg ~/.wallpaper
 sudo cp xorg.conf /etc/X11/xorg.conf
